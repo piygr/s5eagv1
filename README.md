@@ -2,7 +2,7 @@
 
 ## **📌 Problem Statement**
 A Simple MCP Server based AI Mathematical Agent which follows CoT (Chain of Thoughts) Reasoning / ReAct to execute calculation based query. Once the answer is generated, it opens
-browser based Paint App and displays the result inside a rectangle. Here is the [video]()
+browser based Paint App and displays the result inside a rectangle. Here is the [video](https://youtu.be/rgBqDNkDyYA)
 
 #### **System Prompt**
 
@@ -73,6 +73,22 @@ Assistant- COMPLETED: {"completed": true}
 DO NOT include any explanations or commentary.
 Your ENTIRE response must be a single line starting with EXACTLY ONE of:
 ['FUNCTION_CALL:', 'CALCULATED_ANSWER:', 'ACTION:', 'COMPLETED:']
+```
+#### ** Prompt Validation by ChatGPT **
+
+```
+{
+  "explicit_reasoning": true,
+  "structured_output": true,
+  "tool_separation": true,
+  "conversation_loop": true,
+  "instructional_framing": true,
+  "internal_self_checks": true,
+  "reasoning_type_awareness": true,
+  "fallbacks": true,
+  "overall_clarity": "Excellent structure with strong guidance for tool use, reasoning flow, and response formatting. Now fully supports internal self-checks, reasoning tagging, and fallback instructions, making it highly robust for structured, iterative reasoning tasks."
+}
+
 ```
 
 #### **Agent Execution Logs**
