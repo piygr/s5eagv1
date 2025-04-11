@@ -1,7 +1,7 @@
 # **S5EAGv1**
 
 ## **📌 Problem Statement**
-A Simple MCP Server based AI Mathematical Agent which follows CoT (Chain of Thoughts) Reasoning to execute calculation based query. Once the answer is generated, it opens
+A Simple MCP Server based AI Mathematical Agent which follows CoT (Chain of Thoughts) Reasoning / ReAct to execute calculation based query. Once the answer is generated, it opens
 browser based Paint App and displays the result inside a rectangle. Here is the [video]()
 
 #### **System Prompt**
